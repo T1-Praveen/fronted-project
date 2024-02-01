@@ -32,4 +32,4 @@ git push -u origin <your_branch_name>
 
 8. Create a Pull Request!
 
-Congratulations! Sit and relax till we review your PR, you've made your contribution to (https://github.com/Ayushparikh-code/Web-dev-mini-projects) project
+Congratulations! Sit and relax till we review your PR, you've made your contribution to (https://github.com/T1-Praveen/fronted-project) project
