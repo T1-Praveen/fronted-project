@@ -1,0 +1,160 @@
+@import url(./partials/all.min.css);
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(17, 16, 16);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile{
+    width: 325px;
+    height: 450px;
+    background-color: azure;
+    border-radius: 25px;
+    overflow: hidden;
+    box-shadow: 5px 5px 15px rgb(177, 171, 171);
+}
+
+.profile .cover{
+    width: 100%;
+    height: 120px;
+    background-color: rgb(36, 221, 221);
+    box-shadow: 0px 3px 10px rgb(52, 85, 85);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile .cover .circle{
+    width: 106px;
+    height: 106px;
+    border-radius: 50%;
+    background-color: rgb(36, 221, 221);
+    box-shadow: 0px 3px 10px rgb(52, 85, 85);
+    margin-bottom: -70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile .cover .circle img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: scale-down;
+    background-color: white;
+    /* padding-top: 10px; */
+    /* margin-bottom: -70px; */
+    /* border: 3px solid white;   */
+    /* border-bottom-color: rgb(36, 221, 221); */
+}
+
+.profile .text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    line-height: 2;
+}
+
+.profile .text h1{
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+    
+    /* text-transform: uppercase; */
+}
+
+.profile .text .job{
+    font-size: 18px;
+    color: rgb(27, 26, 26);
+    text-shadow: rgb(112, 112, 102) 5px 0 10px;
+}
+
+.profile .text .social{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px; 
+}
+
+.profile .text .social a{
+    padding: 10px;
+}
+
+.profile .text .social a .fa-twitter{
+    color:rgb(9, 130, 160);
+    font-size: 30px;
+}
+
+.profile .text .social a .fa-facebook{
+    color:rgb(30, 50, 143);
+    font-size: 30px;
+}
+
+.profile .text .social a .fa-youtube{
+    color:rgb(218, 19, 19);
+    font-size: 30px;
+}
+
+.profile .text .social a .fa-instagram{
+    color:rgb(219, 19, 119);
+    font-size: 30px;
+}
+
+.profile .text .button{
+    margin-top: 10px;
+    display: flex;
+    gap: 23px;
+}
+
+.profile .text .button button{
+    color: white;
+    font-size: 15px;
+    font-family:  'Roboto', sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 600;
+    padding: 10px  15px;
+    border: none;
+    border-radius: 15px;
+    background-color: rgb(11, 204, 162);
+    cursor: pointer;
+    transition: all 0.4s ease;
+    box-shadow: 5px 0px 15px rgb(124, 124, 124);
+}
+
+.profile .text .button .message{
+    background-color: rgb(11, 14, 13);
+}
+
+.profile .text .button button:hover{
+    background-color: #cf0e0e;
+}
+
+.profile .text .likes{
+    font-size: 15px;
+    margin-top: 20px;
+}
+
+.profile .text .likes span{
+        font-family: "Open Sans", monospace;
+    padding: 5px;
+    margin: 0 5px;
+    border-radius: 10px 5px;
+    text-align: center;
+}
+
+.profile .text .likes .pipe{
+    color: rgb(44, 42, 42);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-shadow: 1px 1px 2px rgb(175, 168, 168), 0 0 1em rgb(147, 147, 153), 0 0 0.2em rgb(154, 154, 160);
+}
